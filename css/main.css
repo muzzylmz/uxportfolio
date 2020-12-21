@@ -328,7 +328,7 @@ a:hover{
     box-shadow: 0 20px 27px rgba(0, 0, 0, 0.15)
 }
 
-.robinhood::before{
+.honesti-design::before{
     content: ' ';
     position: absolute;
     left: 50px;
@@ -336,7 +336,7 @@ a:hover{
     right: 50px;
     bottom: 50px;
     border-radius: 20px;
-    background: #E4F9F3;
+    background: #A1CEED;
     box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05)
 }
 
