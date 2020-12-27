@@ -197,7 +197,7 @@ h6{
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    color: #BDBDBD;
+    color: #898989;
     letter-spacing: 0.3em;
 
 }
@@ -336,9 +336,24 @@ a:hover{
     right: 50px;
     bottom: 50px;
     border-radius: 20px;
-    background: #A1CEED;
+    background: #7cadcd;
     box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05)
 }
+
+.umich-hrdesign::before{
+    content: ' ';
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 20px;
+    background: #7dada7;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.15)
+}
+
+
+
 
 .content{
     width: 80%;
