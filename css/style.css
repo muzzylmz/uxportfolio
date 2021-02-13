@@ -948,18 +948,12 @@ li.tg-rss a {
     #D3D3DD 50%
   );
 }
-.highlighted-BE {
-  background: linear-gradient(
-    180deg,
-    rgba(46, 73, 236, 0) 50%,
-    rgba(118, 150, 187, 0.3) 50%
-  );
-}
+
 .highlighted-honesti{
   background: linear-gradient(
     180deg,
-    rgba(46, 73, 236, 0) 50%,
-    rgba(124, 146, 197, 0.3) 50%
+    rgba(150, 171, 220, 0) 50%,
+    rgba(168, 185, 224, 0.3) 50%
   );
 }
 /* =============================================
