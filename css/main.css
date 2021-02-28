@@ -195,10 +195,10 @@ h6{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 16px;
-    text-transform: uppercase;
+    line-height: 20px;
+    /* text-transform: uppercase; */
     color: #898989;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
 }
 h7 {
   font-family: "Circular Std";
