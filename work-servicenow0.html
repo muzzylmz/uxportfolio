@@ -1,0 +1,32 @@
+<script>
+//Encrypted Password script- By Rob Heslop
+//Script featured on Dynamic Drive
+//Visit http://www.dynamicdrive.com
+
+function submitentry(){
+password = document.password1.password2.value.toLowerCase()
+username = document.password1.username2.value.toLowerCase()
+passcode = 1
+
+for(i = 0; i < password.length; i++) {
+passcode *= password.charCodeAt(i);
+}
+
+//CHANGE THE NUMBERS BELOW TO REFLECT YOUR USERNAME/PASSWORD
+if(passcode==126906300)
+//CHANGE THE NUMBERS ABOVE TO REFLECT YOUR USERNAME/PASSWORD
+{
+window.location=password+".htm"}
+else{
+alert("password/username combination wrong")}
+}
+</script>
+
+<form name="password1">
+
+<br>
+<strong>Enter password: </strong>
+<input type="password" name="password2" size="15">
+
+<input type="button" value="Submit" onClick="submitentry()">
+</form>
